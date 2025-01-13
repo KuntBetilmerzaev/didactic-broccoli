@@ -256,6 +256,7 @@ footer {
 
     .main-section .wrapper {
         padding-bottom: 40px;
+        gap: 40px;
     }
 
     .main-title {
