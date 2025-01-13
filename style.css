@@ -8,12 +8,13 @@
     width: 100%;
     margin: 0px auto;
     max-width: 1180px; /* ⚠️ ОБРАТИ ВНИМАНИЕ - максимальная ширина увеличилась на размер отступов, чтобы ширина контента оставалась корректной */
+    padding: 0 20px;
 }
 
 body {
     font-family: "Inter", sans-serif; 
     color: #303030;
-    /* 📍 Минимальная ширина */ 
+    min-width: 375px;
 }
 
 header {
@@ -141,7 +142,8 @@ select:hover,
 
 form {
     margin-bottom: 40px;
-    /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
+    display: flex;
+    gap: 10px;
 }
 
 .text-field {
@@ -222,8 +224,7 @@ footer {
     }
 
     .main-image {
-        width: 100%;
-        max-width: 728px;
+        max-width: 100%;
     }
 
     .text-wrapper {
@@ -232,7 +233,7 @@ footer {
     }
 
     .about-section {
-        padding-bottom: 60px;
+        padding: 60px 0;
     }
 }
 
@@ -248,19 +249,21 @@ footer {
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
-        /* 📍 Внутренние отступы сверху и снизу */
+        padding-top: 30px;
+        padding-bottom: 60px;
     }
 
     .main-section .wrapper {
-        /* 📍 Отступ между изображением и блоком с текстом */
+        padding-bottom: 40px;
     }
 
     .main-title {
-        /* 📍 Размер шрифта */
+        font-weight: 700;
+        font-size: 20px;
     }
 
     .about-section .wrapper,
     .info-wrapper {
-        /* 📍 Отступ между изображением и блоком с текстом */
+        padding-bottom: 40px;
     }
 }
