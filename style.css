@@ -91,6 +91,7 @@ select:hover,
 
 .info-wrapper {
     display: flex;
+    gap: 60px;
 }
 
 .section-title {
@@ -220,7 +221,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         justify-content: start;
-        gap: 60px;
+        gap: 40px;
     }
 
     .main-image {
