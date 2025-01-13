@@ -68,7 +68,7 @@ header span {
 .about-section .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 select {
@@ -242,7 +242,7 @@ footer {
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 60px;
     }
 }
 
