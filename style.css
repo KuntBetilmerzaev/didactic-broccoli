@@ -221,7 +221,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         justify-content: start;
-        gap: 40px;
+        gap: 60px;
     }
 
     .main-image {
@@ -243,7 +243,7 @@ footer {
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 60px;
     }
 }
 
